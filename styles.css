@@ -96,6 +96,23 @@ header nav ul li a.button:hover {
     margin-bottom: 15px;
 }
 
+.service button.learn-more {
+    background-color: #e8491d;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+    transition: background-color 0.3s ease;
+}
+
+.service button.learn-more:hover {
+    background-color: #c73815;
+}
+
 .service.appear {
     opacity: 1;
     transform: translateY(0);
